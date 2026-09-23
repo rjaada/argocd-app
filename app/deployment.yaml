@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: paulbouwer/hello-kubernetes:1.10
+        image: nginx:alpine
         ports:
-        - containerPort: 8080
+        - containerPort: 80
